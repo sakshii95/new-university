@@ -304,11 +304,12 @@ width: 50%;
     border-bottom: solid 2px #c00021;
 }
 .tab-container a {
-    color: red;
-    font-family: sans-serif;
+    color: #c00021;;
+    font-family: inter;
     font-size: 19px;
     line-height: 1.5;
 }
+
 .tab-container ul {
     margin: 25px;
     border-radius: 9px;
