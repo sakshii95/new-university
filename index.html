@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>University</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
+ 
   <div class="container-fluid-logo">
     <img src="images/pu-logo.png" />
     <div class="redtext">
@@ -32,10 +34,19 @@
             <li><a href="#">Nirf</a></li>
           </ul>
         </div>
-
-
       </li>
       <li><a href="#">Our Administration</a>
+       <div class="sub-menu-1">
+        <ul>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">pu:Oral History</a></li>
+          <li><a href="#">Vision 2025</a></li>
+          <li><a href="#">Calenders/Budget/Documents/Anthem</a></li>
+          <li><a href="#">Ariia 2021 Report</a></li>
+          <li><a href="#">Nirf</a></li>
+        </ul>
+      
+      </div>
       </li>
       <li><a href="#">Academics</a></li>
       <li><a href="#">Research</a></li>
@@ -61,14 +72,15 @@
         to promote study and research". </p>
     </div>
   </div>
-  <div class="big-text-img">
-    <div class="img-text">
+  <div class="big-container-img">
+    <div class="image-container">
       <img src="/images/image.jpg" />
-      <div class="text">
+    </div>
+      <div class="text-container">
         <p> "A university stands for humanism, for tolerance, for reason, for the adventure of ideas and for the search
           of truth. It stands for the onward march of the human race towards ever higher objectives. If the universities
           discharge their duties adequately, then it is well within the nation and the people".</p>
-      </div>
+    
     </div>
   </div>
 
@@ -106,94 +118,87 @@
     </div>
   </div>
 
-  <div class="nav-flex-column">
-    <div class="nav-flex1-column">
-      <div class="tablist">
-        <i class="far fa-newspaper"></i>
-        <ul>
-          <li><a href="#" onclick="toggleForm('admission')">Admission</a></li>
-          <li><a href="#" onclick="toggleForm('news')">News</a></li>
-          <li><a href="#" onclick="toggleForm('events')">Events</a></li>
-          <li><a href="#" onclick="toggleForm('conferences')">Conferences</a></li>
-        </ul>
-      </div>
-      <div class="formcontainer">
-        <div id="admission" class="form" >
-          <h1>Admission</h1>
-          <hr>
-          <form>
-            <ul>
-              <li>CSDE Skill Enhancement Summer Courses</li>
-              <li>Live Seminar on Minor Degree in Universal Human Values</li>
-              <li>Recent Trends in Biomolecules and Therapeutics</li>
-              <li>CHASCON-2022</li>
-            </ul>
-          </form>
-        </div>
-        <div id="news" class="form" style="display: none;">
-          <h1>News</h1>
-          <hr>
-          <form>
-            <ul>
-              <li>CSDE Skill Enhancement Summer Courses</li>
-              <li>Live Seminar on Minor Degree in Universal Human Values</li>
-              <li>Recent Trends in Biomolecules and Therapeutics</li>
-              <li>CHASCON-2022</li>
-            </ul>
-          </form>
-        </div>
-        <div id="events" class="form" style="display: none;">
-          <h1>Events</h1>
-          <hr>
-          <form>
-            <ul>
-              <li>CSDE Skill Enhancement Summer Courses</li>
-              <li>Live Seminar on Minor Degree in Universal Human Values</li>
-              <li>Recent Trends in Biomolecules and Therapeutics</li>
-              <li>CHASCON-2022</li>
-            </ul>
-          </form>
-        </div>
-        <div id="conferences" class="form" style="display: none;">
-          <h1>Conferences</h1>
-          <hr>
-          <form>
-            <ul>
-              <li>CSDE Skill Enhancement Summer Courses</li>
-              <li>Live Seminar on Minor Degree in Universal Human Values</li>
-              <li>Recent Trends in Biomolecules and Therapeutics</li>
-              <li>CHASCON-2022</li>
-            </ul>
-          </form>
-        </div>
-      </div>
-    </div>
-   
+
+
+<div class="tab-container" >
+  <div class="tab" >
+    <button class="tablink" >Admission</button><br><br>
+    <button class="tablink" >News</button><br><br>
+    <button class="tablink" >Events</button><br>
   </div>
+
+  <div id="Admission" class="tab-container1" style="display: block;" >
+  
+ <ul>
+  <h2>Admission</h2>
+<li>Revised Admission Schedule for UG courses for the Session 2023-24</li>
+ <li> Postponement of examinations, counselling, sports trails etc scheduled on 10th & 11th July 2023</li>
+  <li>Sports trials for admission postponed till further orders</li>
+ <li> Revised Admission Schedule for UG Courses for the session 2023-24</li>
+  <li>Extension of last date of online admission form for UG courses</li>
+
+ </ul>
+  
+  </div>
+
+  <div id="News" class="tab-container1" style="display: none;">
+    <h2>News</h2>
+    <p>Paris is the capital of France.</p> 
+    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+  </div>
+
+  <div id="Events" class="tab-container1" style="display:none">
+    <h2>Events</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+ 
+</div>
+</div>
+
+<!-- <script>
+  function openform(evt, tabName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active");
+  }
+    
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script> -->
+  
+  
   <div class="image-screen">
 
-      </div>
+      </div> 
 
-<div>
-<div class="footer">
-  <div class="footer-service">
-  <h1>SUPPORT & SERVICES</h1>
 
+ 
+<footer>
+  <div class="footer-panel1">
+    <div class="footer-box">
     <ul>
-      <li> <a class="#"></a>Public Relations</li>
-      <li> <a class="#"></a>Skill Development & Entrepreneurship</li>
-      <li> <a class="#"></a>Dr. A.P.J. Abdul Kalam Computer Centre</li>
-      <li> <a class="#"></a>SAIF / CIL / UCIM</li>
-      <li> <a class="#"></a>Publication Bureau</li>
-      <li> <a class="#"></a>Industry Institute Partnership</li>
-      <li> <a class="#"></a>Bhai Ghanaiya Ji Institute of Health</li>
+      <p>SUPPORT & SERVICES</p>
+      <li> <a class="#">Public Relations</li>
+      <li> <a class="#">Skill Development & Entrepreneurship</li>
+      <li> <a class="#">Dr. A.P.J. Abdul Kalam Computer Centre</li>
+      <li> <a class="#">SAIF / CIL / UCIM</li>
+      <li> <a class="#">Publication Bureau</li>
+      <li> <a class="#">Industry Institute Partnership</li>
+      <li> <a class="#">Bhai Ghanaiya Ji Institute of Health</li>
       <li><a class="#">Radio Station - Jyotirgamaya: 91.2 MHz</a></li>
     </ul>
-    </div>
+  </div>
 
-    <div class="footer-service1">
-    <h1>BEST PRACTICES</h1>
+   
+   <div class="footer-box">
 <ul>
+  <p>BEST PRACTICES</p>
   <li><a class="#"></a>NEP</li>
   <li><a class="#"></a>Green Policy of PU</li>
   <li><a class="#"></a>Integrated Workshop Facilities</li>
@@ -205,10 +210,11 @@
   <li><a class="#"></a>Consultancy Rules</li>
 
 </ul>
-    </div>
-<div class="footer-service2">
-  <h1>INTRANET</h1>
+</div>
+<div class="footer-box">
+
   <ul>
+    <p>INTRANET</p>
     <li><a class="#">Campus Portal</a></li>
     <li><a class="#">Mail @ Campus</a></li>
     <li><a class="#">NetPortal (WiFi)</a></li>
@@ -216,10 +222,11 @@
     <li><a class="#">Campus Portal [Intranet]</a></li>
     <li><a class="#">PU Website Map</a></li>
   </ul>
+
 </div>
-<div class="footer-service2">
-  <h1>RESOURCES</h1>
+<div class="footer-box">
   <ul>
+    <p>RESOURCES</p>
     <li><a class="#">PU News</a></li>
     <li><a class="#">RTI</a></li>
     <li><a class="#">Tenders</a></li>
@@ -230,37 +237,33 @@
     <li><a class="#">Directorate of Sports</a></li>
   </ul>
 </div>
-<div class="footer-service3"> 
-  <ul>
-    <li><a class="#">
-      COVID19</a></li>
-  </ul>
+<div class="footer-box"> 
 
+  <ul>
+    <li><a class="#">COVID19</a></li>
+    <li><a class="#">CRIKC</a></li>
+    <li><a class="#">PU@IRINS</a></li>
+    <li><a class="#">Alumni</a></li>
+    <li><a class="#">DST Inspire</a></li>
+    <li><a class="#">Online Fee Payment</a></li>
+    <li class="span-dark"><a class="#">Contact Info: <br>
+      Admission 2023</a></li>
+  </ul>
 </div>
+</div>
+<div class="footer-text1">
+  <h2>
+    Enquiry No(s): 1800-180-2065, +91 172 2534818, 2534866 (from 9:30 am to 1:00 pm & 2:30 pm to 4:30 pm on working days )</h2>
+    <hr>
+    <p>© 1997 - 2023: Panjab University, Chandigarh, India. Developed by: Computer Centre, Panjab University. Disclaimer</p>
+    <h3>
+      Panjab University (Established in 1882) is a Central and State Governments Funded University located in Chandigarh. Panjab University is not related at all to Chandigarh University which is a private university and located in Distt Mohali, Punjab about 25 Kms from Chandigarh. No official of Panjab University or Admission Cell is giving any call to the prospective candidate for seeking admission to PU or for submitting admission fee etc.
+       </h3>
   </div>
  
-
+</footer>
  
 
-
-
-</div>
-  <!-- <script>
-    function toggleForm(formId) {
-      var formContainers = document.getElementsByClassName('form');
-      for (var i = 0; i < formContainers.length; i++) {
-        formContainers[i].style.display = 'none';
-      }
-      var selectedFormContainer = document.getElementById(formId);
-      if (selectedFormContainer) {
-        selectedFormContainer.style.display = 'block';
-      }
-    }
-  </script> -->
-  
-  </body>
-  
- 
 </body>
 
 </html>
