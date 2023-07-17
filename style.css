@@ -33,11 +33,14 @@ body {
     margin: 16px;
 }
 .menu-bar {
+    justify-content: space-evenly;
     background-color: rgb(196, 4, 4);
-    text-align: center;
-    height: 40px;
-    padding: 10px;
+    padding: 22px;
+    widows: 100%;
+    width: 100%;
+    display: flex;
 }
+
 .menu-bar ul li .sub-menu-1 ul li {
     width: 293px;
     padding: 10px;
@@ -61,7 +64,7 @@ body {
 .menu-bar ul li a {
     text-decoration: none;
     color: #fff;
-    padding: 10px;
+    padding: 14px;
 }
 
 .menu-bar ul li:hover {
