@@ -1,0 +1,180 @@
+/*Commmon*/
+
+.float-right-nonstrict{
+    float: right;
+}
+.float-left-nonstrict{
+    float: left;
+}
+
+/*Commmon*/
+
+/*Header*/
+
+.header-top-right, .header-top-right *{
+    line-height: normal;
+    color:black;
+}
+.header-top-right a:hover{
+    text-decoration: none;
+    color: black;
+}
+.header-top-right a:visited{
+    text-decoration: none;
+}
+.header-top-right{
+    margin-bottom:6px;
+    margin-top: 6px;
+}
+.header-top-right--phoneicon{
+    display: block;
+    float: left;
+    color: black;
+    font-size: 13px;
+    height: 15px;
+    line-height: 15px;
+}
+.header-top-right--phonenumber{
+    float: left;
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-family: 'ygag-light', 'ygag-light-en';
+}
+.header-top-right--supporttime{
+    font-size: 8px;
+    font-family: 'ygag-light', 'ygag-light-en';
+    text-align: right;
+    color: black;
+    display: block;
+}
+.header-top-right--separator{
+    border-right: solid 1px #ccc;
+    margin: 0px 15px;
+    height: 26px;
+}
+.header-top-right--emailicon{
+    font-size: 16px;
+    display: block;
+    height: 26px;
+    line-height: 26px !important;
+}
+.header-top-right--email{
+    font-size: 14px;
+    font-family: 'ygag-light', 'ygag-light-en';
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 5px;
+}
+.header-top-right--faq{
+    font-size: 14px;
+    font-family: 'ygag-light', 'ygag-light-en';
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 0;
+    color: #b800c4;
+}
+.header-top-right--buyinstore{
+    font-size: 15px;
+    font-family: 'ygag-bold', 'ygag-light-en';
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 0;
+    color: #e4a905;
+}
+.margin-right-buyinstore{
+    margin-right: 12px;
+}
+.header-top-right--buyinstore:hover, .header-top-right--buyinstore:focus{
+    color:#e4a905 !important;
+    text-decoration: none !important;
+}
+.margin-right-faq{
+    margin-right: 12px;
+}
+.header-top-right--faq:hover, .header-top-right--faq:focus{
+    color:#b800c4 !important;
+    text-decoration: none !important;
+}
+.header-top-right--globeicon, .header-top-right--globeicon:visited{
+    color: grey;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header-top-right--lang, .header-top-right--lang:visited{
+    font-family: 'Cairo', 'ygag-light', 'ygag-light-en';
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    color: #b800c4;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.checkout-process .select-date .schedule3_li{
+    opacity: 0;
+}
+.login-step a.forgot {
+    left: auto; }
+.personalize .personalize-steps .h2-title span {
+    margin-left: 0;
+}
+/*Header*/
+
+/*smaller screens - iPad*/
+
+@media (min-width: 2px) and (max-width: 1023px) {
+    .header-top-right--phoneicon {
+        font-size: 16px;
+        height: 26px;
+        line-height: 26px !important;
+    }
+    /* .header-top-right{
+        margin-right: 19px;
+    } */
+    .header-top-right--separator {
+        margin: 0px 20px;
+    }
+    .header-top-right.sa{
+        margin-right: 17px;
+    }
+}
+/*smaller screens - iPad*/
+
+/* PCI logo css */
+
+.footer-pci-logo {
+    width: 142px;
+  }
+  @media (max-width: 1258px) {
+    .footer-pci-logo {
+        margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 1023px) {
+    #footer-links #get-in-touch {
+        height: 165px;
+    }
+    footer .secure-payments {
+      margin-bottom: 15px !important; 
+    }
+  }
+  @media (max-width: 749px) {
+    .footer-pci-logo {
+        padding-bottom: 30px;
+    }
+  }
+
+  #footer-links #get-in-touch li{
+    margin-bottom: 5px;
+  }
+  footer #follow-us ul li{
+    margin: 10px;
+  }
+  

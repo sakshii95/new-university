@@ -1,0 +1,88 @@
+
+@font-face {
+  font-family: "Gotham";
+  src: url('../fonts/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light.eot#iefix') format("embedded-opentype"),
+    url('../fonts/Gotham-Light.woff') format("woff"),
+    url('../fonts/Gotham-Light.ttf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "metro-script";
+  src: url('../fonts/MetroScript.eot');
+  src: url('../fonts/MetroScript.eot#iefix') format("embedded-opentype"),
+    url('../fonts/MetroScript.svg#ygag-bold') format("svg"),
+    url('../fonts/MetroScript.woff') format("woff"),
+    url('../fonts/MetroScript.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "pacifico";
+  src: url('../fonts/Pacifico.eot');
+  src: url('../fonts/Pacifico.eot#iefix') format("embedded-opentype"),
+    url('../fonts/Pacifico.svg#Pacifico') format("svg"),
+    url('../fonts/Pacifico.woff') format("woff"), url('../fonts/Pacifico.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ChaparralPro-Light";
+  src: url('../ChaparralPro-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ChaparralPro-LightLt";
+  src: url('../ChaparralPro-LightIt.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mission-Script";
+  src: url('../Mission-Script.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsbold";
+  src: url('../fonts/poppins-bold-webfont.woff2') format("woff2"),
+    url('../fonts/poppins-bold-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ygag-light";
+  src: url('../fonts/poppins-light-webfont.woff2') format("woff2"),
+    url('../fonts/poppins-light-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ygag-bold";
+  src: url('../fonts/poppins-medium-webfont.woff2') format("woff2"),
+    url('../fonts/poppins-medium-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinssemibold";
+  src: url('../fonts/poppins-semibold-webfont.woff2') format("woff2"),
+    url('../fonts/poppins-semibold-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "poppinsregular";
+  src: url('../fonts/poppins-regular-webfont.woff2') format("woff2"),
+    url('../fonts/poppins-regular-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
