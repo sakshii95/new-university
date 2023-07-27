@@ -146,7 +146,7 @@ i.fa-solid.fa-magnifying-glass {
 .product-sale h4 {
     border-radius: 30px;
     padding: 4px;
-    background-color: #198119;
+    background-color: #223a5e;
     font-size: 10px;
     color: rgb(190, 183, 183);
 }
@@ -230,6 +230,7 @@ i.fa-solid.fa-magnifying-glass {
 .container-fluid-app {
     height: 140px;
     background: #3e3a5a;
+    
 }
 
 .app-system-img img {
